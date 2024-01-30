@@ -1,6 +1,6 @@
 const Project = ({ project }) => {
   return (
-    <div className="max-w-3xl bg-white rounded overflow-hidden shadow-lg text-left ease-in-out duration-500 hover:drop-shadow-2xl">
+    <div className="max-w-3xl bg-white rounded overflow-hidden shadow-lg text-left ease-in-out duration-500 hover:drop-shadow-2xl hover:scale-105">
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">
           <h1 className="ease-in-out duration-300 hover:text-red-400">
