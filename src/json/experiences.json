@@ -1,0 +1,34 @@
+{
+    "E4E": {
+        "title": "Software Engineering Intern",
+        "company": "Engineers for Exploration",
+        "details": [
+            "Developed interactive maps for machine learning researchers using Leaflet and React",
+            "Implemented various buttons to adjust user interface via UseState and Use Effect",
+            "Created configurable GeoJSON objects for analysis of environmental research data",
+            "Attended weekly meetings to discuss my progress and brainstorm ideas"
+        ],
+        "tags": ["React", "TypeScript"]
+    },
+    "USDA": {
+        "title": "Data Analytics Intern",
+        "company": "United States Department of Agriculture",
+        "details": [
+            "Used Numpy and Pandas to process Excel data for 10 nationwide nutrition programs",
+            "Created 83 graphs to visualize nutrition program participation trends with Matplotlib, Pandas, and Numpy",
+            "Assisted with Data Literacy curriculum development for internal data science training program"
+        ],
+        "tags": ["Pandas", "Numpy", "Matplotlib", "Python"]
+    },
+    "incy": {
+        "title": "Software Engineering Intern",
+        "company": "incy.ai",
+        "details": [
+            "Developed \"Reset Password\" functionality for 80+ users using TypeScript and Supabase",
+            "Automated 300+ email notifications based on user information using TypeScript and Postmark",
+            "Developed email templates and databse schema to ensure correct notification formatting",
+            "Examined the use of OCR and LLMs to automate insurance quote generation"
+        ],
+        "tags": ["TypeScript", "Supabase", "Postmark"]
+    }
+}

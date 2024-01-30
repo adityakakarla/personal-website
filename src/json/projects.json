@@ -1,0 +1,46 @@
+{
+  "Focus Tracker": {
+    "name": "Focus Tracker",
+    "details": [
+      "Developed a focus tracker that punishes users through audio when a phone is detected",
+      "Wrote Python script to automatically capture photos and save them locally using OpenCV",
+      "Collected, processed, and labelled object detection boxes for 827 images using Roboflow",
+      "Incorporated YOLOv5 to train the model and detect phones in webcam feed",
+      "Achieved mAP of 98.4%, precision of 96.9%, and recall of 96.4%"
+    ],
+    "tags": ["Python", "OpenCV", "PyTorch", "Roboflow"],
+    "link": "https://github.com/adityakakarla/focus-tracker"
+  },
+  "PicToPlate": {
+    "name": "PicToPlate",
+    "details": [
+      "Developed a computer vision app that analyzes images of food and provides caloric information",
+      "Utilized the OpenAI API to generate recipes based on detected ingredients in image",
+      "Used an AI webserver provided by EyePop.ai to generate a list of detected fruits and vegetables",
+      "Won 1st place in an artificial intelligence/computer vision hackathon with a team of two others"
+    ],
+    "tags": ["JavaScript", "HTML", "CSS", "OpenAI"],
+    "link": "https://github.com/Arush223/EyePopAiHackathon"
+  },
+  "F1 Alexa Skill": {
+    "name": "F1 Alexa Skill",
+    "details": [
+      "Developed an Alexa skill that tells users the time remaining until the next Formula 1 Grand Prix",
+      "Created relevant intents, sample utterances, and slots through the Alexa Developer Console",
+      "Used Python to parse F1 schedule data fetched from the Ergast F1 API"
+    ],
+    "tags": ["Python", "Alexa"],
+    "link": "https://github.com/adityakakarla/formula1-alexa-skill"
+  },
+  "Anti-Podal Calculator": {
+    "name": "Anti-Podal Calculator",
+    "details": [
+      "Developed a web app that finds anti-podal location (location on opposite side of the planet)",
+      "Used Streamlit to create map that displays both user location and anti-podal location",
+      "Used reverse geocode library and GeoPy to indentify nearest countries when in water",
+      "Utilized Streamlit Share and Github to deploy web app"
+    ],
+    "tags": ["Python","Streamlit"],
+    "link": "https://github.com/adityakakarla/antipodal-calculator"
+  }
+}
