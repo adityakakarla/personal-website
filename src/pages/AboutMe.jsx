@@ -8,13 +8,13 @@ const AboutMe = () => {
       <div className="mt-48 max-w-3xl">
         <Intro />
         <div className="text-4xl my-8 font-bold text-center">
-          <div className="my-4">
+          <div className="my-4 hover:text-red-400 duration-500 ease-in-out">
             <Link to="/projects">Projects</Link>
           </div>
-          <div className="my-4">
+          <div className="my-4 hover:text-red-400 duration-500 ease-in-out">
             <Link to="/experience">Experience</Link>
           </div>
-          <div className="my-4">
+          <div className="my-4 hover:text-red-400 duration-500 ease-in-out">
             <Link to="/academics">Academics</Link>
           </div>
         </div>

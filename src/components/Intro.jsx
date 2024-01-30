@@ -7,7 +7,7 @@ const Intro = () => {
       <div className="mb-5 text-5xl font-bold">
         <h1 className="text-center">My name is Aditya Kakarla</h1>
       </div>
-      <div className="text-lg text-center my-3">
+      <div className="text-lg text-center mt-3 mb-36">
         <p className="my-4">
           I am a student at the <b>University of California, San Diego.</b>
         </p>

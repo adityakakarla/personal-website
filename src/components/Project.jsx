@@ -3,7 +3,7 @@ const Project = ({ project }) => {
     <div className="max-w-3xl bg-white rounded overflow-hidden shadow-lg text-left ease-in-out duration-500 hover:drop-shadow-2xl">
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">
-          <h1 className="ease-in-out duration-300 hover:text-pink-700">
+          <h1 className="ease-in-out duration-300 hover:text-red-400">
             <a href={project.link}>{project.name}</a>
           </h1>
         </div>
