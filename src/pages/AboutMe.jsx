@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const AboutMe = () => {
   return (
-    <div className="bg-gradient-to-b h-screen from-blue-50 via-sky-200 to-red-200 flex flex-col justify-between items-center pt-10">
+    <div className="bg-gradient-to-b min-h-screen from-blue-50 via-sky-200 to-red-200 flex flex-col justify-between items-center pt-10">
       <div className="mt-48 max-w-3xl">
         <Intro />
         <div className="text-4xl my-8 font-bold text-center">
