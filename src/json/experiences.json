@@ -11,12 +11,13 @@
         "tags": ["React", "TypeScript"]
     },
     "USDA": {
-        "title": "Data Analytics Intern",
+        "title": "Data Engineering Intern",
         "company": "United States Department of Agriculture",
         "details": [
-            "Used Numpy and Pandas to process Excel data for 10 nationwide nutrition programs",
-            "Created 83 graphs to visualize nutrition program participation trends with Matplotlib, Pandas, and Numpy",
-            "Assisted with Data Literacy curriculum development for internal data science training program"
+            "Cleaned and processed 1,000,000+ data points for nutrition program participation using Pandas and Numpy",
+            "Generated 80+ graphs to visualize program participation trends with Matplotlib, Pandas, and Numpy",
+            "Created multiple visualization templates to promote inclusive data reporting with GeoPandas and Matplotlib",
+            "Developed Data Literacy curriculum for 235 students in internal Data Science Training Program"
         ],
         "tags": ["Pandas", "Numpy", "Matplotlib", "Python"]
     },
