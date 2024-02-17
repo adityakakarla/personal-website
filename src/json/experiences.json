@@ -14,9 +14,9 @@
         "title": "Data Engineering Intern",
         "company": "United States Department of Agriculture",
         "details": [
-            "Cleaned and processed 1,000,000+ data points for nutrition program participation using Pandas and Numpy",
+            "Cleaned and processed 1,000,000+ data points for food program participation using Pandas and Numpy",
             "Generated 80+ graphs to visualize program participation trends with Matplotlib, Pandas, and Numpy",
-            "Created multiple visualization templates to promote inclusive data reporting with GeoPandas and Matplotlib",
+            "Created visualization templates to promote inclusive data reporting with GeoPandas and Matplotlib",
             "Developed Data Literacy curriculum for 235 students in internal Data Science Training Program"
         ],
         "tags": ["Pandas", "Numpy", "Matplotlib", "Python"]
