@@ -3,6 +3,7 @@ import Icons from "../components/Icons";
 import { Link } from "react-router-dom";
 
 const AboutMe = () => {
+  console.log('About me')
   return (
     <div className="px-3 bg-gradient-to-b min-h-screen from-blue-50 via-sky-200 to-red-200 flex flex-col justify-between items-center pt-10">
       <div className="mt-48 max-w-3xl">
