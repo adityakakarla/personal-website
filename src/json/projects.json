@@ -1,4 +1,15 @@
 {
+  "DSC Course Chatbot": {
+    "name": "DSC Course Chatbot",
+    "details": [
+      "Created a chatbot to assists users based on UCSD data science course descriptions",
+      "Used Supabase to store and retrieve vector embeddings of course descriptions",
+      "Utilized Langchain.js to chain prompts, fetch Supabase data, and interact with the OpenAI API",
+      "Created an interactive chatbot interface in Node.js using readline-sync"
+    ],
+    "tags": ["Node.js", "JavaScript", "Langchain", "Supabase", "OpenAI"],
+    "link": "https://github.com/adityakakarla/course-chatbot"
+  },
   "Focus Tracker": {
     "name": "Focus Tracker",
     "details": [
