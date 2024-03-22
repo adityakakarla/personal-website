@@ -1,11 +1,11 @@
 {
-  "DSC Course Chatbot": {
-    "name": "DSC Course Chatbot",
+  "UCSD Course Chatbot": {
+    "name": "UCSD Course Chatbot",
     "details": [
-      "Created a chatbot to assists users based on UCSD data science course descriptions",
+      "Created a chatbot to help users based on 3,898 UCSD undergraduate course descriptions",
       "Used Supabase to store and retrieve vector embeddings of course descriptions",
       "Utilized Langchain.js to chain prompts, fetch Supabase data, and interact with the OpenAI API",
-      "Created an interactive chatbot interface in Node.js using readline-sync"
+      "Created an interactive interface using Next.js client components and server actions"
     ],
     "tags": ["Node.js", "JavaScript", "Langchain", "Supabase", "OpenAI"],
     "link": "https://github.com/adityakakarla/course-chatbot"
