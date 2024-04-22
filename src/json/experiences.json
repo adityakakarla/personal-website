@@ -3,6 +3,7 @@
         "title": "Software Engineering Intern",
         "company": "Engineers for Exploration",
         "details": [
+            "Worked with UI/UX designer to transfer Figma design to frontend with vanilla CSS",
             "Developed interactive maps for machine learning researchers using Leaflet and React",
             "Implemented various buttons to adjust user interface via UseState and Use Effect",
             "Created configurable GeoJSON objects for analysis of environmental research data",
