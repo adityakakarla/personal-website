@@ -8,7 +8,7 @@
       "Created an interactive interface using Next.js client components and server actions"
     ],
     "tags": ["Node.js", "JavaScript", "Langchain", "Supabase", "OpenAI"],
-    "link": "https://github.com/adityakakarla/course-chatbot"
+    "link": "https://github.com/adityakakarla/ucsd-chatbot"
   },
   "Focus Tracker": {
     "name": "Focus Tracker",
