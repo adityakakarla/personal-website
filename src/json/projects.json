@@ -1,4 +1,15 @@
 {
+  "CallToChange": {
+    "name": "CallToChange",
+    "details": [
+      "Developed an application to offset carbon emissions from LLM calls used in generative AI applications",
+      "Created a custom Python library (call-to-change) to track LLM calls through function wrappers",
+      "Utilized MongoDB to track text generation and image generation calls in a cloud database",
+      "Implemented a secure dashboard interface using NextJS and Tailwind where users can view CO2 emissions"
+    ],
+    "tags": ["Next.js", "TailwindCSS", "Python", "MongoDB", "Clerk"],
+    "link": "https://github.com/adityakakarla/call-to-change/"
+  },
   "UCSD Course Chatbot": {
     "name": "UCSD Course Chatbot",
     "details": [
@@ -7,7 +18,7 @@
       "Utilized Langchain.js to chain prompts, fetch Supabase data, and interact with the OpenAI API",
       "Created an interactive interface using Next.js client components and server actions"
     ],
-    "tags": ["Node.js", "JavaScript", "Langchain", "Supabase", "OpenAI"],
+    "tags": ["Next.js", "JavaScript", "Langchain", "Supabase", "OpenAI"],
     "link": "https://github.com/adityakakarla/ucsd-chatbot"
   },
   "Focus Tracker": {
