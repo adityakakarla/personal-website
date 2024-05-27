@@ -11,7 +11,7 @@
     "link": "https://github.com/adityakakarla/call-to-change/"
   },
   "UCSD Course Chatbot": {
-    "name": "UCSD Course Chatbot",
+    "name": "ucsdGPT",
     "details": [
       "Created a chatbot to help users based on 3,898 UCSD undergraduate course descriptions",
       "Used Supabase to store and retrieve vector embeddings of course descriptions",
