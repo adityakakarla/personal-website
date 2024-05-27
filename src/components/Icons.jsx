@@ -16,7 +16,7 @@ const Icons = () => {
         src={Github}
         alt="Github icon"
       />
-      <Icon link="mailto:adi@adikakarla.com" src={Email} alt="Email icon" />
+      <Icon link="mailto:adityakakarla@icloud.com" src={Email} alt="Email icon" />
     </div>
   );
 };
