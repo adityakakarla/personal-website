@@ -2,10 +2,10 @@
   "CallToChange": {
     "name": "CallToChange",
     "details": [
-      "Developed an application to offset carbon emissions from LLM calls used in generative AI applications",
+      "Developed an application to offset carbon emissions from LLM calls used by AI apps",
       "Created a custom Python library (call-to-change) to track LLM calls through function wrappers",
       "Utilized MongoDB to track text generation and image generation calls in a cloud database",
-      "Implemented a secure dashboard interface using NextJS and Tailwind where users can view CO2 emissions"
+      "Built a secure emissions dashboard interface using NextJS, Tailwind, and Clerk"
     ],
     "tags": ["Next.js", "TailwindCSS", "Python", "MongoDB", "Clerk"],
     "link": "https://github.com/adityakakarla/call-to-change/"
