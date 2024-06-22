@@ -1,4 +1,15 @@
 {
+  "PromptCraft": {
+    "name": "PromptCraft",
+    "details": [
+      "Built a web app that helps developers test prompts without writing a line of code",
+      "Integrated Clerk and Supabase to configure and store API keys using row-level security",
+      "Used shadcn and Tailwind CSS to create an interactive UI for prompt editing",
+      "Utilized Next.js 14 as the core framework, utilizing Server Actions and Client Components"
+    ],
+    "tags": ["Next.js", "TailwindCSS", "Supabase", "Clerk", "shadcn"],
+    "link": "https://github.com/adityakakarla/prompt-craft/"
+  },
   "CallToChange": {
     "name": "CallToChange",
     "details": [
