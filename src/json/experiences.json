@@ -8,6 +8,12 @@
             "Engineered data pipeline to populate Neo4j knowledge graph using GPT-4o",
             "Built Python library to enable integration between internal LLM API and LangChain",
             "Prototyped AI-powered simulations using AI agents built with LangGraph and Neo4j"
+        ],
+        "tags": [
+            "Python",
+            "Neo4j",
+            "OpenAI",
+            "LangChain"
         ]
     },
     "EyePop": {
@@ -18,6 +24,11 @@
             "Engineered interactive live-action fitness rep counter utilizing computer vision",
             "Deployed user-friendly Next.js mobile web app to demonstrate enterprise use cases",
             "Implemented AI-powered profile photo cropper with Next.js and TailwindCSS"
+        ],
+        "tags": [
+            "Next.js",
+            "TailwindCSS",
+            "TypeScript"
         ]
     },
     "E4E": {
