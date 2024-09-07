@@ -12,7 +12,7 @@ const Intro = () => {
           I am a student at the <b>University of California, San Diego.</b>
         </p>
         <p className="my-4">
-          I am a first-year data science major at the Halicioglu Data Science
+          I am a second-year data science major at the Halicioglu Data Science
           Institute.
         </p>
         <p className="my-4">

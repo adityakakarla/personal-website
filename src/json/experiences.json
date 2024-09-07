@@ -1,4 +1,25 @@
 {
+    "DoD": {
+        "title": "Software Engineering Intern",
+        "company": "United States Department of Defense",
+        "details": [
+            "Deployed internal Python library to automate ETL process for vehicle reports",
+            "Improved runtime of internal ArcGIS dependency scraping script by 99.7%",
+            "Engineered data pipeline to populate Neo4j knowledge graph using GPT-4o",
+            "Built Python library to enable integration between internal LLM API and LangChain",
+            "Prototyped AI-powered simulations using AI agents built with LangGraph and Neo4j"
+        ]
+    },
+    "EyePop": {
+        "title": "Software Engineering Intern",
+        "company": "EyePop.ai",
+        "details": [
+            "Built demos to showcase product for a startup building a computer vision API",
+            "Engineered interactive live-action fitness rep counter utilizing computer vision",
+            "Deployed user-friendly Next.js mobile web app to demonstrate enterprise use cases",
+            "Implemented AI-powered profile photo cropper with Next.js and TailwindCSS"
+        ]
+    },
     "E4E": {
         "title": "Software Engineering Intern",
         "company": "Engineers for Exploration",
@@ -9,7 +30,10 @@
             "Created configurable GeoJSON objects for analysis of environmental research data",
             "Attended weekly meetings to discuss my progress and brainstorm ideas"
         ],
-        "tags": ["React", "TypeScript"]
+        "tags": [
+            "React",
+            "TypeScript"
+        ]
     },
     "USDA": {
         "title": "Data Engineering Intern",
@@ -20,7 +44,12 @@
             "Generated templates to promote inclusive data reporting with GeoPandas and Matplotlib",
             "Developed Data Literacy curriculum for 235 students in internal Data Science Training Program"
         ],
-        "tags": ["Pandas", "Numpy", "Matplotlib", "Python"]
+        "tags": [
+            "Pandas",
+            "Numpy",
+            "Matplotlib",
+            "Python"
+        ]
     },
     "incy": {
         "title": "Software Engineering Intern",
@@ -31,6 +60,10 @@
             "Developed email templates and databse schema to ensure correct notification formatting",
             "Examined the use of OCR and LLMs to automate insurance quote generation"
         ],
-        "tags": ["TypeScript", "Supabase", "Postmark"]
+        "tags": [
+            "TypeScript",
+            "Supabase",
+            "Postmark"
+        ]
     }
 }

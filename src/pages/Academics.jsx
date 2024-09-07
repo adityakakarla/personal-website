@@ -16,6 +16,7 @@ const Academics = () => {
         <ol className="list-disc">
           <li>DSC 10: Introduction to Data Science</li>
           <li>DSC 20: Introduction to Programming</li>
+          <li>DSC 30: Data Structures and Algorithms</li>
           <li>DSC 40A: Theoretical Foundations of Data Science</li>
           <li>MATH 18: Linear Algebra</li>
           <li>MATH 20A: Calculus for Science and Engineering</li>
@@ -32,7 +33,7 @@ const Academics = () => {
           learning.
         </p>
         <p className="my-4">
-          As of the Winter 2024 academic quarter, I have a 4.00 GPA.
+          As of the Fall 2024 academic quarter, I have a 4.00 GPA.
         </p>
       </div>
     </div>
