@@ -3,7 +3,6 @@ import AboutMe from "./pages/AboutMe";
 import Projects from "./pages/Projects";
 import Experiences from "./pages/Experiences";
 import Academics from "./pages/Academics";
-import Three from "./pages/Three";
 
 const App = () => {
   return (
@@ -14,7 +13,6 @@ const App = () => {
           <Route path="/projects" element={<Projects />}/>
           <Route path="/experience" element={<Experiences />}/>
           <Route path="/academics" element={<Academics/>}/>
-          <Route path="/three" element={<Three/>}/>
         </Routes>
       </BrowserRouter>
     </div>
