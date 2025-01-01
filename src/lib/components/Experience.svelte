@@ -1,4 +1,4 @@
-<script>
+<script lang='ts'>
     let {title, company, tags, description} = $props();
 </script>
 

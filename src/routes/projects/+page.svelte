@@ -3,12 +3,25 @@
 
 	const projects = [
 		{
+			name: "api.adityakakarla.com",
+			tags: ['Go','Docker','GCP','Svelte'],
+			link: 'https://api.adityakakarla.com',
+			description: [
+				'Utilized Go to engineer a limited personal information API at the above URL',
+				'Containerized app using Docker and deployed using Google Cloud Run with custom domain',
+				'Utilized Svelte to build documentation page to explain API endpoints to an empty audience',
+				'Wrote multiple unit tests to verify accuracy of information fetched from API endpoint',
+			]
+		},
+		{
 			name: 'Krait',
-			tags: ['Go'],
+			tags: ['Go','OpenAI'],
 			link: 'https://github.com/adityakakarla/krait',
 			description: [
-				'Developed a Go CLI tool to generate Go CLI tools using generative AI',
-				'Utilized Cobra to create multi-option CLI tool with subcommands and flags for optimal UI/UX',
+				'Built a CLI tool using Go to help developers build CLI tools with OpenAI and Anthropic',
+				'Utilized Cobra to create CLI tool with subcommands and flags for optimal user experience',
+				'Created local storage solution for user API keys and configuration options',
+				'Published Krait to Github where anyone with Go installed can download and use it'
 			]
 		},
 		{

@@ -1,4 +1,4 @@
-<script>
+<script lang='ts'>
     const paths = [
         { name: 'Home', path: '/' },
         { name: 'Projects', path: '/projects' },
