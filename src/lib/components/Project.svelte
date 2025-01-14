@@ -2,11 +2,11 @@
     let {name, tags, link, description} = $props();
 </script>
 
-<div class="rounded-lg overflow-hidden border-2 border-black">
+<div class="rounded-lg overflow-hidden border-2 border-black bg-white">
     <div class="p-6">
       <div class="flex justify-between items-start mb-4">
         <h2 class="text-xl font-bold text-gray-800">{name}</h2>
-        <a href={link} target="_blank" rel="noopener noreferrer" class="font-semibold hover:text-sky-800">
+        <a href={link} target="_blank" rel="noopener noreferrer" class="font-semibold hover:text-sky-700">
           View Project
         </a>
       </div>

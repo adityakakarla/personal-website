@@ -21,7 +21,7 @@
     ]
 </script>
 
-<div>
+<div class=' p-4 rounded-lg border-2 border-black bg-white'>
     <div class="space-y-4 text-center pb-8 border-black">
     <p>Wow, someone actually wants to use the API.</p>
     <p>Impressive.</p>

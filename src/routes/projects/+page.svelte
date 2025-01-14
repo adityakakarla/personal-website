@@ -5,7 +5,7 @@
 		{
 			name: "api.adityakakarla.com",
 			tags: ['Go','Docker','GCP','Svelte'],
-			link: 'https://api.adityakakarla.com',
+			link: '/api-docs',
 			description: [
 				'Utilized Go to engineer a limited personal information API at the above URL',
 				'Containerized app using Docker and deployed using Google Cloud Run with custom domain',
@@ -25,7 +25,7 @@
 			]
 		},
 		{
-			name: 'SOPAbase',
+			name: 'Sopabase',
 			tags: ['Next.js', 'Supabase', 'Tailwind', 'Python', 'Flask', 'Anthropic', 'Adalflow'],
 			link: 'https://github.com/HitarthSS/SOPABase',
 			description: [
@@ -71,7 +71,7 @@
 			]
 		},
 		{
-			name: 'PicToPlate',
+			name: 'Pic-To-Plate',
 			tags: ['Javascript', 'HTML', 'CSS', 'OpenAI'],
 			link: 'https://github.com/ajagtapdev/EyePopAiHackathon',
 			description: [
@@ -82,7 +82,7 @@
 			]
 		},
 		{
-			name: 'F1 Alexa Skill',
+			name: 'F1 Alexa',
 			tags: ['Python', 'Alexa'],
 			link: 'https://github.com/adityakakarla/formula1-alexa-skill',
 			description: [

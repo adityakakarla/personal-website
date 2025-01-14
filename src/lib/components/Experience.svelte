@@ -2,7 +2,7 @@
     let {title, company, tags, description} = $props();
 </script>
 
-<div class="rounded-lg overflow-hidden border-2 border-black">
+<div class="rounded-lg overflow-hidden border-2 border-black bg-white">
     <div class="p-6">
       <div class="flex flex-col mb-4">
         <h2 class="text-xl font-bold text-gray-800">{title}</h2>
