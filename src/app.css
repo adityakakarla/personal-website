@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+
+/* Set body and html background to black to prevent white edges during scrolling */
+html,
+body {
+	background-color: #1c1917;
+	margin: 0;
+	padding: 0;
+}
