@@ -7,9 +7,6 @@
 
 <div class="flex w-[90vw] max-w-[800px] flex-col items-center justify-center space-y-2 text-left">
 	<h1 class="w-full text-2xl font-bold">Aditya Kakarla</h1>
-	{#if !error}
-		<p class="w-full">Thanks for visiting from {city}</p>
-	{/if}
 	<p class="w-full">I'm interested in solving hard + interesting problems with AI.</p>
 	<h1 class="mt-8 w-full text-lg font-bold">Currently</h1>
 	<p class="w-full">Taking a gap quarter to build AI tools for the US government @ Palantir</p>
@@ -34,4 +31,7 @@
 			<a href="https://github.com/adityakakarla" class="underline hover:text-blue-400">GitHub</a>
 		</p>
 	</div>
+	{#if !error}
+		<p class="mt-8 w-full italic">Thanks for visiting from {city}!</p>
+	{/if}
 </div>
