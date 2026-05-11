@@ -5,9 +5,9 @@
 </script>
 
 <svelte:head>
-	<title>Adi's Website</title>
+	<title>Aditya Kakarla</title>
 </svelte:head>
 
-<div class='bg-stone-900 flex flex-col items-center pt-30 px-10 min-h-screen text-white w-full'>
+<div class="flex min-h-screen w-full flex-col items-center bg-stone-900 px-10 pt-30 text-white">
 	{@render children()}
 </div>
