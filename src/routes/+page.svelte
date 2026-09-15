@@ -18,6 +18,7 @@
 	</p>
 	<h1 class="mt-8 w-full text-lg font-bold">Previously</h1>
 	<ul class="w-full list-decimal pl-8">
+		<li>Optimized state store operations for Spark streaming at Databricks</li>
 		<li>Took a gap year to build critical AI products for the US government at Palantir</li>
 		<li>Deployed endpoint security products for mission-critical customers at Microsoft</li>
 		<li>Worked on full-stack + agents + evals for lending + real estate companies at Cadre</li>
