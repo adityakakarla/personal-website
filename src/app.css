@@ -1,6 +1,13 @@
 @import 'tailwindcss';
 
-/* Set body and html background to black to prevent white edges during scrolling */
+@theme {
+	--font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+	--font-serif: 'Instrument Serif', ui-serif, Georgia, serif;
+	--font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+	--color-cream: #f3f0d6;
+	--color-cream-muted: #c4bfa0;
+}
+
 html,
 body {
 	background-color: #1c1917;

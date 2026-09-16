@@ -3,46 +3,83 @@
 	let { data }: PageProps = $props();
 	const error = data.error;
 	const city = data.city;
+	const linkClass =
+		'text-cream underline decoration-cream/40 underline-offset-4 hover:decoration-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cream';
+
+	const previous = [
+		{
+			org: 'Databricks',
+			detail: 'Optimized state store operations for Spark streaming'
+		},
+		{
+			org: 'Palantir',
+			detail: 'Took a gap year to build critical AI products for the US government'
+		},
+		{
+			org: 'Microsoft',
+			detail: 'Deployed endpoint security products for mission-critical customers'
+		},
+		{
+			org: 'Cadre',
+			detail: 'Worked on full-stack + agents + evals for lending + real estate companies'
+		},
+		{
+			org: 'Mesirov Lab',
+			detail: 'Built coding agents to accelerate cancer genomics research'
+		},
+		{
+			org: 'Department of Defense',
+			detail: 'Prototyped AI-powered warfare simulations using graph agents'
+		},
+		{
+			org: 'Department of Agriculture',
+			detail: 'Engineered tools to find areas underserved by food programs'
+		}
+	];
 </script>
 
-<div class="flex w-[90vw] max-w-[800px] flex-col items-center justify-center space-y-2 text-left">
-	<p class="w-full">
+<div class="flex w-full flex-col text-left">
+	<p class="w-full text-lg leading-7">
 		My name is Aditya and I'm a software engineer interested in building AI systems for critical
 		industries like national security and healthcare. I study data science + ML at UCSD, where I
-		help run <a href="https://www.sdx.community/chapters/ucsd" class="underline">SDx</a>.
+		help run
+		<a href="https://www.sdx.community/chapters/ucsd" class={linkClass}>SDx</a>.
 	</p>
-	<h1 class="mt-8 w-full text-lg font-bold">Currently</h1>
-	<p class="w-full">
-		Working with Central Valley businesses to deploy AI in industries like construction, oil & gas,
-		etc.
-	</p>
-	<h1 class="mt-8 w-full text-lg font-bold">Previously</h1>
-	<ul class="w-full list-decimal pl-8">
-		<li>Optimized state store operations for Spark streaming at Databricks</li>
-		<li>Took a gap year to build critical AI products for the US government at Palantir</li>
-		<li>Deployed endpoint security products for mission-critical customers at Microsoft</li>
-		<li>Worked on full-stack + agents + evals for lending + real estate companies at Cadre</li>
-		<li>Prototyped coding agents to accelerate cancer genomics research at the Mesirov Lab</li>
-		<li>
-			Built Python library to streamline integration between internal LLM and LangChain at DoD
-		</li>
-		<li>
-			Engineered tools to find areas underserved by food programs at Department of Agriculture
-		</li>
-	</ul>
-	<h1 class="mt-8 w-full text-lg font-bold">Contact</h1>
-	<p class="w-full">Always open to meeting people. Currently based in San Francisco.</p>
-	<div class="flex w-full flex-row space-x-3">
-		<p>
-			<a href="https://www.linkedin.com/in/aditya-kakarla/" class="underline hover:text-blue-400"
-				>LinkedIn</a
-			>
+
+	<section class="mt-10 w-full">
+		<h2 class="font-mono text-xs tracking-[0.22em] text-cream-muted uppercase">Currently</h2>
+		<p class="mt-2 w-full text-lg leading-7">
+			Working with Central Valley businesses to deploy AI in industries like construction, oil &
+			gas, etc.
 		</p>
-		<p>
-			<a href="https://github.com/adityakakarla" class="underline hover:text-blue-400">GitHub</a>
+	</section>
+
+	<section class="mt-10 w-full">
+		<h2 class="font-mono text-xs tracking-[0.22em] text-cream-muted uppercase">Previously</h2>
+		<ul class="mt-4 flex w-full flex-col gap-4">
+			{#each previous as role (role.org)}
+				<li>
+					<p class="font-serif text-2xl leading-snug text-cream">{role.org}</p>
+					<p class="mt-0.5 leading-6">{role.detail}</p>
+				</li>
+			{/each}
+		</ul>
+	</section>
+
+	<section class="mt-10 w-full">
+		<h2 class="font-mono text-xs tracking-[0.22em] text-cream-muted uppercase">Contact</h2>
+		<p class="mt-2 w-full text-lg leading-7">
+			Always open to meeting people. Currently based in San Francisco.
 		</p>
-	</div>
+		<div class="mt-3 flex w-full flex-row gap-4">
+			<a href="https://www.linkedin.com/in/aditya-kakarla/" class={linkClass}>LinkedIn</a>
+			<a href="https://github.com/adityakakarla" class={linkClass}>GitHub</a>
+		</div>
+	</section>
+
 	{#if !error}
-		<p class="mt-8 w-full italic">Thanks for visiting from {city}!</p>
+		<p class="mt-10 w-full font-mono text-xs tracking-[0.18em] text-stone-500">
+			Thanks for visiting from {city}!
+		</p>
 	{/if}
 </div>
