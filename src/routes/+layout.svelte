@@ -15,16 +15,16 @@
 </svelte:head>
 
 <div
-	class="flex min-h-screen w-full flex-col items-center bg-stone-900 px-10 pt-16 pb-16 font-sans text-stone-300"
+	class="flex min-h-screen w-full flex-col items-center bg-zinc-900 px-10 pt-16 pb-16 font-sans text-zinc-300"
 >
 	<div class="flex w-[90vw] max-w-[800px] flex-col text-left">
-		<nav class="mb-10 flex flex-row gap-4 font-mono text-xs tracking-[0.22em] uppercase">
+		<nav class="mb-10 flex flex-row gap-4">
 			{#each links as link (link.href)}
 				<a
 					href={link.href}
 					class={page.url.pathname === link.href
-						? 'text-cream'
-						: 'text-cream-muted hover:text-cream'}
+						? 'text-zinc-100'
+						: 'text-zinc-400 hover:text-zinc-100'}
 				>
 					{link.label}
 				</a>

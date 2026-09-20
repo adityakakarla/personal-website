@@ -4,7 +4,7 @@
 	const error = data.error;
 	const city = data.city;
 	const linkClass =
-		'text-cream underline decoration-cream/40 underline-offset-4 hover:decoration-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cream';
+		'text-zinc-100 underline decoration-zinc-100/40 underline-offset-4 hover:decoration-zinc-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-100';
 
 	const previous = [
 		{
@@ -39,7 +39,7 @@
 </script>
 
 <div class="flex w-full flex-col text-left">
-	<p class="w-full text-lg leading-7">
+	<p class="w-full leading-6">
 		My name is Aditya and I'm a software engineer interested in building AI systems for critical
 		industries like national security and healthcare. I study data science + ML at UCSD, where I
 		help run
@@ -47,19 +47,11 @@
 	</p>
 
 	<section class="mt-10 w-full">
-		<h2 class="font-mono text-xs tracking-[0.22em] text-cream-muted uppercase">Currently</h2>
-		<p class="mt-2 w-full text-lg leading-7">
-			Working with Central Valley businesses to deploy AI in industries like construction, oil &
-			gas, etc.
-		</p>
-	</section>
-
-	<section class="mt-10 w-full">
-		<h2 class="font-mono text-xs tracking-[0.22em] text-cream-muted uppercase">Previously</h2>
+		<h2 class="text-lg font-normal text-zinc-400">Previously</h2>
 		<ul class="mt-4 flex w-full flex-col gap-4">
 			{#each previous as role (role.org)}
 				<li>
-					<p class="font-serif text-2xl leading-snug text-cream">{role.org}</p>
+					<p class="font-serif text-xl leading-snug text-zinc-100">{role.org}</p>
 					<p class="mt-0.5 leading-6">{role.detail}</p>
 				</li>
 			{/each}
@@ -67,8 +59,8 @@
 	</section>
 
 	<section class="mt-10 w-full">
-		<h2 class="font-mono text-xs tracking-[0.22em] text-cream-muted uppercase">Contact</h2>
-		<p class="mt-2 w-full text-lg leading-7">
+		<h2 class="text-lg font-normal text-zinc-400">Contact</h2>
+		<p class="mt-2 w-full leading-6">
 			Always open to meeting people. Currently based in San Francisco.
 		</p>
 		<div class="mt-3 flex w-full flex-row gap-4">
@@ -78,7 +70,7 @@
 	</section>
 
 	{#if !error}
-		<p class="mt-10 w-full font-mono text-xs tracking-[0.18em] text-stone-500">
+		<p class="mt-10 w-full text-zinc-400">
 			Thanks for visiting from {city}!
 		</p>
 	{/if}

@@ -1,7 +1,4 @@
 <script lang="ts">
-	const linkClass =
-		'text-cream underline decoration-cream/40 underline-offset-4 hover:decoration-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cream';
-
 	const years = [
 		{
 			year: 2026,
@@ -145,11 +142,13 @@
 <div class="flex w-full flex-col">
 	{#each years as group, i (group.year)}
 		<section class={i === 0 ? 'w-full' : 'mt-10 w-full'}>
-			<h2 class="font-mono text-xs tracking-[0.22em] text-cream-muted uppercase">{group.year}</h2>
+			<h2 class="text-lg font-normal text-zinc-400">{group.year}</h2>
 			<ul class="mt-4 flex w-full flex-col gap-4">
 				{#each group.projects as project (project.href)}
 					<li>
-						<a href={project.href} class="font-serif text-2xl leading-snug {linkClass}"
+						<a
+							href={project.href}
+							class="font-bold leading-6 underline decoration-zinc-100/40 underline-offset-4 hover:decoration-zinc-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-100"
 							>{project.name}</a
 						>
 						<p class="mt-0.5 leading-6">{project.detail}</p>
