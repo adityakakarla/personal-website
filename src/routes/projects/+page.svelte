@@ -33,7 +33,7 @@
 			year: 2025,
 			projects: [
 				{
-					name: 'Audio Brightness Thing',
+					name: 'Audio-Based Brightness Adjuster',
 					href: 'https://github.com/adityakakarla/audio-brightness',
 					detail: 'Auto-adjust the brightness of your screen based on microphone levels'
 				},
@@ -54,7 +54,7 @@
 						'Give agents the ability to navigate maps and extract geospatial insights (like a military analyst)'
 				},
 				{
-					name: 'Hackathons FYI',
+					name: 'hackathons.fyi',
 					href: 'https://github.com/adityakakarla/hackathons-fyi',
 					detail:
 						'A semantic search tool to find good hackathon project ideas based on your interests'
